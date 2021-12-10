@@ -2,32 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+.clr{
+    clear: both;
 }
 
 
-
 body{
-    background-color: snow;
     color:black;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif ;
     line-height: 1.6em;
+    min-height: 200px;
 }
 .container{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 #header{
     text-align: center;
     margin-top: 20px;
-    background-color: lightgreen;
+    background-color:maroon;
     padding: 20px;
 
 }
 
 #nav_bar{
-    background-color: darkgray;
+    background-color: green;
     color: white;
 }
 
@@ -40,3 +43,43 @@ body{
     display: inline;
     margin-left: 250px;
 }
+#welcome {
+    background-image: url("../images/flag.jpeg");
+    background-position:center;
+    min-height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0;
+
+
+}
+#welcome h1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+#myForm{
+    background-position:center;
+    min-height: 40px;
+    text-align: center;
+    background-color: maroon;
+
+}
+#myFooter{
+    background-color: green;
+    min-height: 100px;
+    margin-bottom: 50px;
+    background-position: center;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#aside{
+    background-color: yellow;
+    min-height: 100px;
+    text-align: center;
+
+}
+
+
