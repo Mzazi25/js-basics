@@ -71,7 +71,7 @@ body{
     margin-bottom: 50px;
     background-position: center;
     text-align: center;
-    padding-top: 30px;
+    padding: 50px;
     
 }
 
@@ -79,7 +79,27 @@ body{
     background-color: yellow;
     min-height: 100px;
     text-align: center;
+    padding: 40px;
 
 }
 
 
+#myForm label{
+    display: block;
+    
+}
+
+
+#myForm input[type="text"]{
+    padding: 8px;
+    width: 20%;
+}
+#myForm input[type="date"]{
+    padding: 8px;
+    width: 20%;
+}
+#myForm input[type="submit"]{
+    padding: 8px;
+    text-align: center;
+
+}
