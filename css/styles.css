@@ -24,29 +24,34 @@ body{
 #header{
     text-align: center;
     margin-top: 20px;
-    background-color:maroon;
-    padding: 20px;
+    background-color: black;
+    color: white;
+    padding:20px;
 
 }
 
 #nav_bar{
-    background-color: green;
+    background-color:yellow;
     color: white;
+    text-decoration: none;
 }
 
 #nav_bar ul{
     padding: 0;
     list-style: none;
+    
 }
 
 #nav_bar li{
     display: inline;
-    margin-left: 250px;
+    margin-left: 300px;
+    text-decoration: none;
+
 }
 #welcome {
-    background-image: url("../images/flag.jpeg");
+    background-image: url("../images/akan.png");
     background-position:center;
-    min-height: 300px;
+    min-height: 150px;
     text-align: center;
     background-repeat: no-repeat;
     margin: 0;
@@ -55,18 +60,23 @@ body{
 }
 #welcome h1{
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 100px;
 }
 #myForm{
-    background-position:center;
+    
     min-height: 40px;
     text-align: center;
-    background-color: maroon;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
 
 }
+    
 #myFooter{
-    background-color: green;
+    background-color: yellow;
     min-height: 100px;
     margin-bottom: 50px;
     background-position: center;
@@ -76,10 +86,13 @@ body{
 }
 
 #aside{
-    background-color: yellow;
-    min-height: 100px;
+
+    
+    min-height: 200px;
     text-align: center;
-    padding: 40px;
+    padding: 50px 50px;
+
+
 
 }
 
@@ -101,5 +114,24 @@ body{
 #myForm input[type="submit"]{
     padding: 8px;
     text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.box1{
+
+    background-size: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Checkbox{
+    align-items: center;
+    min-height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
 
 }
