@@ -7,9 +7,16 @@
 ## Description
 
 This Web Application gets your Akan Names using your birthdays and its different for Male and Female. 
+ Screenshot
+<img src="images/picture.png" width="800px" height="400px">
 
-## Screenshot
-<img src="images/pictures.png" width="800px" height="400px">
+
+## Setup instructions
+To run the application in your terminal:
+
+* Clone Repository on Local Machine
+* cd into Directory
+* Open the index.html on the browser
 
 ## Live Page 
 https://mzazi25.github.io/js-basics/index.html
@@ -20,6 +27,15 @@ https://mzazi25.github.io/js-basics/index.html
 * Javascript
 * Css
 
+## Making modifications
+To make advancements/modification use the following:
+
+* Fork the repository
+* Create a new branch 
+* Make the appropriate changes in the files
+* Add changes made
+* Commit your changes 
+* Push to the branch 
 
 ## Contact Information 
 
