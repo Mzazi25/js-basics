@@ -1,17 +1,14 @@
-const firstName = document.getElementById(".firstName");
-const birthday= document.getElementById(".birthday");
-const checkBox= document.getElementById(".Checkbox");
-document.getElementById("button").addEventListener('click', onSubmit)
+let form = document.getElementById("myform");
 
-function onSubmit(e){
-    e.preventDefault();
+//Define Male and Female names
 
-    if (firstName === "" || birthday === "" || checkBox === ""){
-        alert("Enter FirstName")
-    }else{
-        alert("Invalid Selection")
-    }
+let Male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi", "Kwame"];
+let Female = [ "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-   
+document.getElementById("myform").addEventListener("submit", akanNames);
+
+function akanNames(){
+    
+
 
 }
